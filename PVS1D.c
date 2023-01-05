@@ -1,7 +1,7 @@
 /*
 A 1D Tissue Model of the Cardiac Purkinje-Ventricular System
 by Mengya Yuan, Heqiang Lian, and Pan Li*, 
-as in Spatiotemporal Patterns of Early Afterdepolarizations Underlying Abnormal T-wave Morphologies in a Tissue Model of the Purkinje-Ventricular System, 2022
+as in Spatiotemporal Patterns of Early Afterdepolarizations Underlying Abnormal T-wave Morphologies in A Tissue Model of the Purkinje-Ventricular System, PLoS One, Jan 2023
 *Email: pan.li@nih.gov
 
 To plot use matlab:
@@ -341,14 +341,14 @@ char filename1[255],filename2[255],filename3[255];
 
 int main ()
 {
-	printf("Please enter£ºICKr ICCaL ICNa\n"); 
+	printf("Please enterÂ£ÂºICKr ICCaL ICNa\n"); 
 	scanf("%lf %lf %lf",&ICKr,&ICCaL,&ICNa);
-    printf("They are£º%lf %lf %lf\n",ICKr,ICCaL,ICNa);
+    printf("They areÂ£Âº%lf %lf %lf\n",ICKr,ICCaL,ICNa);
     
 	// OPEN OUTPUT FILEs
-	printf("Please enter£ºDrugName\n"); 
+	printf("Please enterÂ£ÂºDrugName\n"); 
 	scanf("%s",&DrugName);
-	printf("They are£º%s\n",DrugName);
+	printf("They areÂ£Âº%s\n",DrugName);
 	sprintf(filename1, "%s-MV-adaptation.txt", DrugName);
 	sprintf(filename2, "%s-ECG-adaptation.txt", DrugName);
 	sprintf(filename3, "%s-APD-adaptation.txt", DrugName);

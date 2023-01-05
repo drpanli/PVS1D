@@ -1,6 +1,6 @@
 % A 1D Tissue Model of the Cardiac Purkinje-Ventricular System
 % by Mengya Yuan, Heqiang Lian, and Pan Li*, 
-% as in Spatiotemporal Patterns of Early Afterdepolarizations Underlying Abnormal T-wave Morphologies in a Tissue Model of the Purkinje-Ventricular System, 2022
+% as in Spatiotemporal Patterns of Early Afterdepolarizations Underlying Abnormal T-wave Morphologies in a Tissue Model of the Purkinje-Ventricular System, PLoS ONE, Jan 2023
 % *Email: pan.li@nih.gov
 
 % To plot use matlab:
